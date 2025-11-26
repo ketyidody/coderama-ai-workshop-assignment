@@ -147,6 +147,17 @@ Composables must:
     - empty state
     - loading state
     - error state
+- Use Figma MCP for the following designs:
+  - color style guide: https://www.figma.com/design/CSKrPZ4ETBC5JY5zjRoTXn/github-user-search-app?node-id=1-313&t=fe8lQQXrpSwQY21F-0
+  - typography style guide: https://www.figma.com/design/CSKrPZ4ETBC5JY5zjRoTXn/github-user-search-app?node-id=1-131&t=fe8lQQXrpSwQY21F-0
+  - spacing style guide: https://www.figma.com/design/CSKrPZ4ETBC5JY5zjRoTXn/github-user-search-app?node-id=1-164&t=fe8lQQXrpSwQY21F-0
+  - radius style guide: https://www.figma.com/design/CSKrPZ4ETBC5JY5zjRoTXn/github-user-search-app?node-id=1-251&t=fe8lQQXrpSwQY21F-0
+  - logo: https://www.figma.com/design/CSKrPZ4ETBC5JY5zjRoTXn/github-user-search-app?node-id=3-994&t=fe8lQQXrpSwQY21F-0
+  - icons: https://www.figma.com/design/CSKrPZ4ETBC5JY5zjRoTXn/github-user-search-app?node-id=5-134&t=fe8lQQXrpSwQY21F-0
+  - profile: https://www.figma.com/design/CSKrPZ4ETBC5JY5zjRoTXn/github-user-search-app?node-id=5-659&t=fe8lQQXrpSwQY21F-0
+  - search: https://www.figma.com/design/CSKrPZ4ETBC5JY5zjRoTXn/github-user-search-app?node-id=5-172&t=fe8lQQXrpSwQY21F-0
+  - search bar light: https://www.figma.com/design/CSKrPZ4ETBC5JY5zjRoTXn/github-user-search-app?node-id=5-351&t=fe8lQQXrpSwQY21F-0
+  - search bar dark: https://www.figma.com/design/CSKrPZ4ETBC5JY5zjRoTXn/github-user-search-app?node-id=5-587&t=fe8lQQXrpSwQY21F-0
 
 ---
 

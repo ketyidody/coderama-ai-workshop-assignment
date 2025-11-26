@@ -1,12 +1,12 @@
 # AI Workflow Dokumentácia
 
-**Meno:** 
+**Meno:** Jozef Ketyi
 
-**Dátum začiatku:** 
+**Dátum začiatku:** 26. 11. 2025
 
-**Dátum dokončenia:** 
+**Dátum dokončenia:** 26. 11. 2025
 
-**Zadanie:** Frontend / Backend
+**Zadanie:** Frontend
 
 ---
 
@@ -15,116 +15,70 @@
 Vyplň približný čas strávený s každým nástrojom:
 
 - [ ] **Cursor IDE:** _____ hodín
-- [ ] **Claude Code:** _____ hodín  
+- [x] **Claude Code:** 2 hodiny
 - [ ] **GitHub Copilot:** _____ hodín
-- [ ] **ChatGPT:** _____ hodín
+- [x] **ChatGPT:** 10 min
 - [ ] **Claude.ai:** _____ hodín
 - [ ] **Iné:** 
 
-**Celkový čas vývoja (priližne):** _____ hodín
+**Celkový čas vývoja (priližne):** 2 hodiny
 
 ---
 
 ## 2. Zbierka Promptov
 
-> 💡 **Tip:** Kopíruj presný text promptu! Priebežne dopĺňaj po každej feature.
-
-### Prompt #1: _________________________________
-
-**Nástroj:** [ Cursor / Claude Code / Copilot / ChatGPT / Iné ]  
-**Kontext:** [ Setup projektu / OAuth implementácia / ... ]
-
-**Prompt:**
-```
-[Sem vlož celý text promptu - presne ako si ho zadal do AI]
-```
-
-**Výsledok:**  
-[ ] ✅ Fungoval perfektne (first try)  
-[ ] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
-[ ] ⭐⭐⭐ OK, potreboval viac úprav  
-[ ] ⭐⭐ Slabé, musel som veľa prepísať  
-[ ] ❌ Nefungoval, musel som celé prepísať
-
-**Čo som musel upraviť / opraviť:**
-```
-[Popíš čo si musel zmeniť. Ak nič, napíš "Nič, fungoval perfektne"]
-```
-
-**Poznámky / Learnings:**
-```
-[Prečo fungoval / nefungoval? Čo by si urobil inak?]
-```
-
-
-
-### Prompt #2: _________________________________
-
-**Nástroj:** _________________  
-**Kontext:** _________________
-
-**Prompt:**
-```
-```
-
-**Výsledok:**  
-
-**Úpravy:**
-```
-```
-
-**Poznámky:**
-```
-```
-
----
+Vytvoril som samostatny MD subor: prompts.md (vid v projekte)
 
 ## 3. Problémy a Riešenia 
 
 > 💡 **Tip:** Problémy sú cenné! Ukazujú ako riešiš problémy s AI.
 
-### Problém #1: _________________________________
+### Problém #1: ChatGPT mi nevygeneroval prp tak ako ja som chcel
 
 **Čo sa stalo:**
 ```
-[Detailný popis problému - čo nefungovalo? Aká bola chyba?]
+Poprosil som ChatGPT aby mi vygeneroval prp ku projektu, on mi dal generic output, ktory sa nedalo pouzit do MD suboru
 ```
 
 **Prečo to vzniklo:**
 ```
-[Tvoja analýza - prečo AI toto vygeneroval? Čo bolo v prompte zlé?]
+Pravdepodobne moj prvy prompt nebol uplne jasny
 ```
 
 **Ako som to vyriešil:**
 ```
-[Krok za krokom - čo si urobil? Upravil prompt? Prepísal kód? Použil iný nástroj?]
+Napisal som novy prompt aby mi dal output vo formate markdown code-u.
 ```
 
 **Čo som sa naučil:**
 ```
-[Konkrétny learning pre budúcnosť - čo budeš robiť inak?]
+Cim presnejsi prompt tym lepsie riesenie
 ```
 
 **Screenshot / Kód:** [ ] Priložený
 
 ---
 
-### Problém #2: _________________________________
+### Problém #2: Github OAUTH flow nefungoval out of the box
 
 **Čo sa stalo:**
 ```
+Claude vygeneroval github flow, ale ked som sa prihlasil do github, nevratil ma spat do applikacie
 ```
 
 **Prečo:**
 ```
+Chyba ale bola na mojej strane, neprecital som output od AI
 ```
 
 **Riešenie:**
 ```
+Postupoval som podla pokynov ktory mi Claude napisal do output a zaregistroval som externu applikaciu na github
 ```
 
 **Learning:**
 ```
+Citat output AI
 ```
 
 ## 4. Kľúčové Poznatky
@@ -133,18 +87,9 @@ Vyplň približný čas strávený s každým nástrojom:
 
 **1.** 
 ```
-[Príklad: Claude Code pre OAuth - fungoval first try, zero problémov]
+Za mna vsetko fungovalo vyborne. Planning som sice robil trosku v hlave, a snazil som sa davat mensie tasky AI,
+napriek tomu skoro celu appku mi vygeneroval na prvy prompt
 ```
-
-**2.** 
-```
-```
-
-**3.** 
-```
-```
-
-**[ Pridaj viac ak chceš ]**
 
 ---
 
@@ -152,7 +97,7 @@ Vyplň približný čas strávený s každým nástrojom:
 
 **1.** 
 ```
-[Príklad: Figma MCP spacing - často o 4-8px vedľa, musel som manuálne opravovať]
+V podstate nic mi neprislo narocne. Zabudol som sice na figmu, idem to teraz pridat :)
 ```
 
 **2.** 
@@ -169,23 +114,8 @@ Vyplň približný čas strávený s každým nástrojom:
 
 **1.** 
 ```
-[Príklad: Vždy špecifikuj verziu knižnice v prompte - "NextAuth.js v5"]
-```
-
-**2.** 
-```
-```
-
-**3.** 
-```
-```
-
-**4.** 
-```
-```
-
-**5.** 
-```
+Citaj zadanie :D ... ale nie. Jednoznacne najlepsie cim specifickejsie zadat pre AI prompt,
+ale dobre napisany PRP vie urobit zazraky
 ```
 
 ---
@@ -194,15 +124,17 @@ Vyplň približný čas strávený s každým nástrojom:
 
 **Tip #1:**
 ```
-[Konkrétny, actionable tip]
+Najprv precitaj zadanie az potom zacni planovat.
 ```
 
 **Tip #2:**
 ```
+ChatGPT krasne vie vygenerovat PRP, claude zasa krasne vie nakodit celu appku.
 ```
 
 **Tip #3:**
 ```
+Treba citat output z AI
 ```
 
 ---
@@ -211,47 +143,51 @@ Vyplň približný čas strávený s každým nástrojom:
 
 ### 6.1 Efektivita AI nástrojov
 
-**Ktorý nástroj bol najužitočnejší?** _________________________________
+**Ktorý nástroj bol najužitočnejší?** Claude Code
 
 **Prečo?**
 ```
+Je to workhorse. To ze nemusim copy/paste z ChatGPT je na nezaplatenie. Vie generovat viac suborov, celu strukturu appky
 ```
 
-**Ktorý nástroj bol najmenej užitočný?** _________________________________
+**Ktorý nástroj bol najmenej užitočný?** PHPStorm
 
 **Prečo?**
 ```
+Ked mi vsetko vygeneroval Claude, este aj git commit spravil :)
 ```
 
 ---
 
 ### 6.2 Najväčšie prekvapenie
 ```
-[Čo ťa najviac prekvapilo pri práci s AI?]
+Na tomto projekte som nenasiel ziadne prekvapenie, kedze sme tieto veci uz robili predtym,
+ale na workshope ma prekvapilo, co som nevedel, ze kolko MCP serverov existuje
 ```
 
 ---
 
 ### 6.3 Najväčšia frustrácia
 ```
-[Čo bolo najfrustrujúcejšie?]
+Mozno iba pocet tokenov ktore sa pouzivaju pri generovani
+Tazko sa mu vysvetluje ze jeden element je trosku mimo, nakoniec som to spravil sam.
 ```
 
 ---
 
 ### 6.4 Najväčší "AHA!" moment
 ```
-[Kedy ti došlo niečo dôležité o AI alebo o developmente?]
+Ked som si vsimol ze mi Claude napisal do output ze mam zaregistrovat app na github aby fungoval OAuth login.
 ```
 
 ---
 
 ### 6.5 Čo by som urobil inak
 ```
-[Keby si začínal znova, čo by si zmenil?]
+Uz som pisal vyssie, asi by som mal najporv dvakrat precitat zadanie, lebo teraz este musim povedat AI nech pouziva styly z figmy
 ```
 
 ### 6.6 Hlavný odkaz pre ostatných
 ```
-[Keby si mal povedať jednu vec kolegom o AI development, čo by to bylo?]
+Nebojte sa pouzivat AI, ale iba vtedy ked na tom vas zivot nezavysi. Huby dajte radsej skontrolovat expertovi :)
 ```

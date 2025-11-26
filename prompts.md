@@ -9,11 +9,23 @@
 ### Result:
 CLAUDE.md was created
 
+[X] ✅ Fungoval perfektne (first try)  
+[ ] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
+
 ## 2. prompt: create a prp file
 
 > create a prp file for me where I can put the basic prompt response pattern
 ### Result:
 prompt-response-pattern.md was created
+
+[X] ✅ Fungoval perfektne (first try)  
+[ ] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
 
 ## 3. prompt: create a prp file content
 #### Tool: ChatGPT
@@ -30,6 +42,12 @@ I had to prompt again to give me it in a markup language but that generated the 
 yes but I can't copy the whole thing. Please output it as a markdown code
 ```
 
+[ ] ✅ Fungoval perfektne (first try)  
+[x] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
+
 ## 4. prompt: creating a vue app
 #### Tool: Claude Code
 #### Context: Project setup
@@ -39,6 +57,12 @@ Create a basic vue app
 ```
 ### Result:
 Claude created the whole application with all the templates and basic functionality
+
+[x] ✅ Fungoval perfektne (first try)  
+[ ] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
 
 ## 5. prompt: update of public profile page
 #### Tool: Claude Code
@@ -55,6 +79,12 @@ Repos count
 ### Result:
 Claude added the missing information to the public profile page
 
+[x] ✅ Fungoval perfektne (first try)  
+[ ] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
+
 ## 6. prompt: page responsiveness
 #### Tool: Claude Code
 #### Context: Project responsiveness
@@ -64,6 +94,12 @@ All the pages must be responsive, mobile, tablet and desktop. Update the design 
 ```
 ### Result:
 Claude updated the pages with responsive design.
+
+[x] ✅ Fungoval perfektne (first try)  
+[ ] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
 
 ## 7. prompt: light mode/dark mode
 #### Tool: Claude Code
@@ -75,6 +111,12 @@ Create a button to change theme for the application. There should be two possibl
 ### Result:
 The whole page is now in dark mode, there is button in the top right corner which doesn't change anything except the icon on itself
 
+[ ] ✅ Fungoval perfektne (first try)  
+[x] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
+
 ## 8. prompt: light mode/dark mode functionality
 #### Tool: Claude Code
 #### Context: Visuals
@@ -84,6 +126,12 @@ Now add the functionality to the button, when pressed, toggle between dark/light
 ```
 ### Result:
 Now the button for switching dark/light mode is working. I know that my previous prompt wasn't clear enough.
+
+[x] ✅ Fungoval perfektne (first try)  
+[ ] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
 
 ## 9. prompt: OAuth Login button
 #### Tool: Claude Code
@@ -96,6 +144,11 @@ Create the whole session management (login/logout)
 ### Result:
 Button was added there, when clicked it forwarded me to github login, but after logging in I was stuck on an empty page.
 
+[ ] ✅ Fungoval perfektne (first try)  
+[x] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
 
 ## 10. prompt: Fix OAuth login
 #### Tool: Claude Code
@@ -108,6 +161,12 @@ Please check and fix this issue.
 ### Result:
 Well, it didn't fix anything, but seems that https://github.com/login/oauth/authorize will give me a 404, so this might not be the AI's fault
 EDIT: This fixed it, I just had to read the output from Claude, and follow the instructions how to get the client_id and client_secret
+
+[x] ✅ Fungoval perfektne (first try)  
+[ ] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
 
 ## 11. prompt: Create the protected dashboard route
 #### Tool: Claude Code
@@ -124,6 +183,12 @@ Last updated
 ### Result:
 Created the /dashboard page, everything looks good.
 
+[x] ✅ Fungoval perfektne (first try)  
+[ ] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
+
 ## 12. prompt: Git commit
 #### Tool: Claude Code
 #### Context: git commit
@@ -133,3 +198,60 @@ Here is the repo for Git: git@github.com:ketyidody/coderama-ai-workshop-assignme
 ```
 ### Result:
 Claude initialized the git for me, created a commit with generated commit message (great, I hate those), but I had to push it myself, as he wasn't able to use SSH keys, which is alright.
+
+[x] ✅ Fungoval perfektne (first try)  
+[ ] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
+
+## 13. prompt: Style change
+#### Tool: Claude Code
+#### Context: App style
+### Prompt:
+```
+I've updated the prompt-response-pattern.md file with style guides. Please change the app style according these styles from Figma MCP.
+```
+### Result:
+Claude changed the styles to match those from Figma through MCP, but there were some responsivity issues
+
+[ ] ✅ Fungoval perfektne (first try)  
+[x] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
+
+## 14. prompt: Fix styles after figma integration
+#### Tool: Claude Code
+#### Context: App style
+### Prompt:
+```
+alright, everything looks nice, but there are 2 problems with the responsiveness:
+- when switching to mobile version on home page, the search button is off the side. Maybe move the button below the searchbar on mobile
+- on descktop the profile menu is on the far right side of the display, when the button is in the middle. 
+```
+### Result:
+Claude changed one of the problems, but the menu is still floating on the right
+
+[ ] ✅ Fungoval perfektne (first try)  
+[x] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[ ] ❌ Nefungoval, musel som celé prepísať
+
+
+## 14. prompt: Fix styles after figma integration
+#### Tool: Claude Code
+#### Context: App style
+### Prompt:
+```
+You have fixed the search button, but the menu is still on the far right side.
+```
+### Result:
+Claude changed one of the problems, but the menu is still floating on the right
+
+[ ] ✅ Fungoval perfektne (first try)  
+[ ] ⭐⭐⭐⭐ Dobré, potreboval malé úpravy  
+[ ] ⭐⭐⭐ OK, potreboval viac úprav  
+[ ] ⭐⭐ Slabé, musel som veľa prepísať  
+[x] ❌ Nefungoval, musel som celé prepísať
