@@ -131,3 +131,5 @@ Created the /dashboard page, everything looks good.
 ```
 Here is the repo for Git: git@github.com:ketyidody/coderama-ai-workshop-assignment.git. Please commit and push this project to the main branch of this commit.
 ```
+### Result:
+Claude initialized the git for me, created a commit with generated commit message (great, I hate those), but I had to push it myself, as he wasn't able to use SSH keys, which is alright.
