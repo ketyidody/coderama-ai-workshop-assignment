@@ -16,23 +16,30 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div>
-    <header class="fixed top-0 left-0 right-0 z-40 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700">
-      <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        <router-link to="/" class="text-lg sm:text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-          GitHub Search
-        </router-link>
+  <div class="min-h-screen bg-neutral-100 dark:bg-neutral-900 transition-colors">
+    <div class="w-full px-300">
+      <div class="max-w-[730px] mx-auto">
+        <header class="bg-neutral-100 dark:bg-neutral-900">
+          <div class="py-500 flex items-center justify-between">
+            <router-link
+              to="/"
+              class="text-preset-1 text-neutral-900 dark:text-neutral-0 hover:opacity-70 transition-opacity"
+            >
+              devfinder
+            </router-link>
 
-        <div class="flex items-center gap-3 sm:gap-4">
-          <ThemeToggle />
-          <UserMenu v-if="authStore.isAuthenticated" />
-          <LoginButton v-else />
-        </div>
+            <div class="flex items-center gap-200 sm:gap-300">
+              <ThemeToggle />
+              <UserMenu v-if="authStore.isAuthenticated" />
+              <LoginButton v-else />
+            </div>
+          </div>
+        </header>
+
+        <main>
+          <router-view />
+        </main>
       </div>
-    </header>
-
-    <div class="pt-16">
-      <router-view />
     </div>
   </div>
 </template>

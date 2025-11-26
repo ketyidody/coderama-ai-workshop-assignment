@@ -11,23 +11,23 @@ defineProps<Props>()
 <template>
   <router-link
     :to="{ name: 'user', params: { username: user.login } }"
-    class="block bg-white dark:bg-gray-800 rounded-lg shadow-md p-3 sm:p-4 hover:shadow-lg transition-all"
+    class="block bg-neutral-0 dark:bg-neutral-800 rounded-16 shadow-search-light dark:shadow-none p-300 hover:opacity-90 transition-all"
   >
-    <div class="flex items-center gap-3 sm:gap-4">
+    <div class="flex items-center gap-300">
       <img
         :src="user.avatar_url"
         :alt="user.login"
-        class="w-12 h-12 sm:w-16 sm:h-16 rounded-full flex-shrink-0"
+        class="w-[70px] h-[70px] sm:w-[117px] sm:h-[117px] rounded-full flex-shrink-0"
       />
       <div class="min-w-0 flex-1">
-        <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white truncate">{{ user.login }}</h3>
+        <h3 class="text-preset-2 text-neutral-900 dark:text-neutral-0 truncate">{{ user.login }}</h3>
         <a
           :href="user.html_url"
           target="_blank"
-          class="text-xs sm:text-sm text-blue-600 dark:text-blue-400 hover:underline inline-block"
+          class="text-preset-7 text-blue-500 hover:underline inline-block mt-050"
           @click.stop
         >
-          View on GitHub
+          @{{ user.login }}
         </a>
       </div>
     </div>

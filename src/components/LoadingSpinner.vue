@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="flex justify-center items-center py-6 md:py-8">
-    <div class="animate-spin rounded-full h-10 w-10 sm:h-12 sm:w-12 border-b-2 border-gray-900 dark:border-white"></div>
+  <div class="flex justify-center items-center py-800">
+    <div class="animate-spin rounded-full h-[48px] w-[48px] border-b-[3px] border-blue-500"></div>
   </div>
 </template>

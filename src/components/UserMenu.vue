@@ -51,7 +51,7 @@ const goToDashboard = () => {
     <div
       v-if="isMenuOpen"
       @click.self="isMenuOpen = false"
-      class="fixed inset-0 z-40"
+      class="inset-0 z-40"
     >
       <div
         class="absolute right-4 top-16 sm:top-20 mt-2 w-56 sm:w-64 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 py-2 z-50"
